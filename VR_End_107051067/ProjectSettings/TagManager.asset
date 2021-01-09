@@ -6,7 +6,7 @@ TagManager:
   tags:
   - projectile
   - FxTemporaire
-  - "\u7C43\u7403"
+  - Bomb
   layers:
   - Default
   - TransparentFX

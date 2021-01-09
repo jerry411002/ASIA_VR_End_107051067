@@ -54,7 +54,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.HorizontalLayoutGroup
     - UnityEngine.UI.Image
     - UnityEngine.UI.Outline
-    - UnityEngine.UI.Shadow
     - UnityEngine.UI.Text
   sceneClasses:
     Assets/Scenes/basketball sc.unity:
@@ -107,99 +106,97 @@ ScriptsOnlyBuild:
     - Class: 111
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 14596}
+      Script: {instanceID: 14622}
     - Class: 114
-      Script: {instanceID: 14612}
+      Script: {instanceID: 14638}
     - Class: 114
-      Script: {instanceID: 14640}
+      Script: {instanceID: 14666}
     - Class: 114
-      Script: {instanceID: 14688}
+      Script: {instanceID: 14714}
     - Class: 114
-      Script: {instanceID: 14744}
+      Script: {instanceID: 14770}
     - Class: 114
-      Script: {instanceID: 14760}
+      Script: {instanceID: 14786}
     - Class: 114
-      Script: {instanceID: 14792}
+      Script: {instanceID: 14818}
     - Class: 114
-      Script: {instanceID: 14804}
+      Script: {instanceID: 14830}
     - Class: 114
-      Script: {instanceID: 14852}
+      Script: {instanceID: 14878}
     - Class: 114
-      Script: {instanceID: 14906}
+      Script: {instanceID: 14932}
     - Class: 114
-      Script: {instanceID: 14914}
+      Script: {instanceID: 14940}
     - Class: 114
-      Script: {instanceID: 14950}
+      Script: {instanceID: 14976}
     - Class: 114
-      Script: {instanceID: 14962}
+      Script: {instanceID: 14988}
     - Class: 114
-      Script: {instanceID: 15016}
+      Script: {instanceID: 15042}
     - Class: 114
-      Script: {instanceID: 15206}
+      Script: {instanceID: 15232}
     - Class: 114
-      Script: {instanceID: 15220}
+      Script: {instanceID: 15282}
     - Class: 114
-      Script: {instanceID: 15256}
+      Script: {instanceID: 15330}
     - Class: 114
-      Script: {instanceID: 15304}
+      Script: {instanceID: 15332}
     - Class: 114
-      Script: {instanceID: 15306}
+      Script: {instanceID: 15434}
     - Class: 114
-      Script: {instanceID: 15408}
-    - Class: 114
-      Script: {instanceID: 15494}
-    - Class: 114
-      Script: {instanceID: 15512}
+      Script: {instanceID: 15520}
     - Class: 114
       Script: {instanceID: 15538}
     - Class: 114
-      Script: {instanceID: 15642}
+      Script: {instanceID: 15564}
     - Class: 114
-      Script: {instanceID: 15678}
+      Script: {instanceID: 15668}
     - Class: 114
-      Script: {instanceID: 15794}
+      Script: {instanceID: 15704}
     - Class: 114
-      Script: {instanceID: 15846}
+      Script: {instanceID: 15820}
     - Class: 114
-      Script: {instanceID: 15902}
+      Script: {instanceID: 15872}
     - Class: 114
-      Script: {instanceID: 16030}
+      Script: {instanceID: 15928}
     - Class: 114
-      Script: {instanceID: 16032}
+      Script: {instanceID: 16056}
     - Class: 114
-      Script: {instanceID: 16052}
+      Script: {instanceID: 16058}
     - Class: 114
-      Script: {instanceID: 16118}
+      Script: {instanceID: 16078}
     - Class: 114
-      Script: {instanceID: 16122}
+      Script: {instanceID: 16144}
     - Class: 114
-      Script: {instanceID: 16140}
+      Script: {instanceID: 16148}
     - Class: 114
-      Script: {instanceID: 16162}
+      Script: {instanceID: 16166}
     - Class: 114
-      Script: {instanceID: 16202}
+      Script: {instanceID: 16188}
     - Class: 114
-      Script: {instanceID: 16344}
+      Script: {instanceID: 16228}
     - Class: 114
-      Script: {instanceID: 16360}
+      Script: {instanceID: 16370}
     - Class: 114
-      Script: {instanceID: 16364}
+      Script: {instanceID: 16386}
     - Class: 114
-      Script: {instanceID: 16418}
+      Script: {instanceID: 16390}
     - Class: 114
-      Script: {instanceID: 16458}
+      Script: {instanceID: 16444}
     - Class: 114
-      Script: {instanceID: 16508}
+      Script: {instanceID: 16484}
     - Class: 114
-      Script: {instanceID: 16646}
+      Script: {instanceID: 16534}
     - Class: 114
-      Script: {instanceID: 16708}
+      Script: {instanceID: 16672}
     - Class: 114
-      Script: {instanceID: 16726}
+      Script: {instanceID: 16734}
     - Class: 114
-      Script: {instanceID: 16792}
+      Script: {instanceID: 16752}
     - Class: 114
-      Script: {instanceID: 16816}
+      Script: {instanceID: 16818}
+    - Class: 114
+      Script: {instanceID: 16842}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -1476,4 +1473,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/basketball sc.unity
-  playerPath: D:/Unity_ASIA_VR_Basketball/EXE_Basketball/VR_Basketball.exe
+  playerPath: D:/ASIA_VR_End_107051067/VR_exe/VR_Basketball.exe

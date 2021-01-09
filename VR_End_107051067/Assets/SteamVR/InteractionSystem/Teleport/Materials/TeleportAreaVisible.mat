@@ -82,7 +82,7 @@ Material:
     - _BumpScale: 1
     - _ColorMask: 15
     - _Cutoff: 0.5
-    - _Darken: 0.572
+    - _Darken: 1
     - _DetailNormalMapScale: 1
     - _DstBlend: 10
     - _Emission: 0.01

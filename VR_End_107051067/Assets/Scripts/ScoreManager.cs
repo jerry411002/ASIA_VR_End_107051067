@@ -1,6 +1,6 @@
 ﻿
 using UnityEngine;
-using UnityEngine.UI;  //引用 介面API
+using UnityEngine.UI; 
 
 public class ScoreManager : MonoBehaviour
 {
@@ -17,44 +17,36 @@ public class ScoreManager : MonoBehaviour
 
     private void Awake()
     {
-        //音效來源=取得元件<音效來源>()
         aud = GetComponent<AudioSource>();
     }
-    //OTE條件：
-    //兩個碰撞物件 其中一個 必須勾選Is Trigger
-    //要偵測此腳本子物件是否產生碰撞
-    //必須添加鋼體(Rigbody)
 
     private void OnTriggerEnter(Collider other)
     {
-        //如果 碰撞物件的標籤 為 籃球 就加分 並且 籃球 的 高度 >2.5
-        if (other.tag == "籃球"&& other.transform.position .y >2.5f )
+       
+        if (other.tag == "Bomb"&& other.transform.position .y >2.5f )
         {
             AddScore();
         }
-        //如果 碰撞根物件名稱為  Player
+        
         if (other.transform.root.name=="Player")
         {
-            //玩家進入三分區域，將投進球分數改為三分
-            scoreIn =3;
+            scoreIn =5;
         }
     }
-    //當碰撞物件離開碰撞範圍時執行一次 
+    
     private void OnTriggerExit(Collider other)
     {
         if (other.transform.root .name=="Player")
         {
-            //將投進的分數改為兩分
+           
             scoreIn = 2;
         }  
     }
-    ///<summary>
-    ///加分數
-    ///</summary>
+
     private  void  AddScore()
         {
-            score += scoreIn;                  //分數遞增  投進分數
-            textScore.text = "分數" + score;   //更新介面
+            score += scoreIn;                  
+            textScore.text = "分數" + score;  
             aud.PlayOneShot(soundIn, Random.Range(1f, 2f)); //音效來源.撥放一次(音效片段,音量)
         }
    
