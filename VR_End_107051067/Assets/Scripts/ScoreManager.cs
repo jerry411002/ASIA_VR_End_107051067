@@ -27,8 +27,8 @@ public class ScoreManager : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        //如果 碰撞物件的標籤 為 籃球 就加分
-        if (other.tag == "籃球")
+        //如果 碰撞物件的標籤 為 籃球 就加分 並且 籃球 的 高度 >2.5
+        if (other.tag == "籃球"&& other.transform.position .y >2.5f )
         {
             AddScore();
         }
@@ -39,7 +39,7 @@ public class ScoreManager : MonoBehaviour
             scoreIn =3;
         }
     }
-    //當碰撞物件離開碰撞範圍時執行一次
+    //當碰撞物件離開碰撞範圍時執行一次 
     private void OnTriggerExit(Collider other)
     {
         if (other.transform.root .name=="Player")
