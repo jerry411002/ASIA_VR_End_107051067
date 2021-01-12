@@ -7,9 +7,9 @@ public class ScoreManager : MonoBehaviour
     [Header("分數介面")]
     public Text textScore;
     [Header("分數")]
-    public int score;
-    [Header("投僅的分數")]
-    public int scoreIn = 2;
+    public static  int score;
+    [Header("投進的分數")]
+    public int scoreIn;
     [Header("進球音效")]
     public AudioClip soundIn;
 
@@ -22,28 +22,19 @@ public class ScoreManager : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag=="Bomb"&& other.transform.position.y>2.5f)
+        if (other.tag=="Bomb"&& other.transform.position.y>-10f)
         {
             AddScore();
         }
-        if (other.transform .root.name =="Player")
-        {
-            scoreIn = 5;
-        }
+        
     }
 
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.transform .root.name=="Player")
-        {
-            scoreIn = 2;
-        }
-    }
+    
 
     private void AddScore()
     {
         score += scoreIn;
-        textScore.text = "分數" + score;
+        textScore.text = "分數：" + score;
 
         aud.PlayOneShot(soundIn, Random.Range(1f, 3f));
 
